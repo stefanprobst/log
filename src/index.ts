@@ -5,15 +5,15 @@ export const log = {
     console.log(...messages);
   },
   info(...messages: Array<unknown>): void {
-    console.info("➡️", ...messages);
+    console.info("➡️ ", ...messages);
   },
   success(...messages: Array<unknown>): void {
-    console.info("✅", ...messages);
+    console.info("✅ ", ...messages);
   },
   warn(...messages: Array<unknown>): void {
-    console.warn("⚠️", ...messages);
+    console.warn("⚠️ ", ...messages);
   },
   error(...messages: Array<unknown>): void {
-    console.error("❌", ...messages);
+    console.error("❌ ", ...messages);
   },
 };
